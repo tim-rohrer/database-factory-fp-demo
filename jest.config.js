@@ -1,4 +1,6 @@
 const config = {
+  globalSetup: "./test/setup.ts",
+  globalTeardown: "./test/teardown.ts",
   verbose: true,
   extensionsToTreatAsEsm: [".ts"],
   globals: {
